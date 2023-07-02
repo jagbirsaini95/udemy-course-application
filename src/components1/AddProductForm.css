@@ -1,0 +1,17 @@
+.add-product-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-product-btns button {
+    border-radius: 5px;
+    background-color: rgb(218, 180, 253);
+    cursor: pointer;
+    padding: 10px;
+}
+
+input {
+    padding: 6px;
+    border-radius: 8px;
+    width: 90%;
+}

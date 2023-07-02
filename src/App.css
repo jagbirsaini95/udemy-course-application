@@ -1,0 +1,39 @@
+body {}
+
+.App1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px 5px;
+  border-radius: 5px;
+  background-color: rgb(218, 180, 253);
+  cursor: pointer;
+  padding: 10px;
+}
+
+.container {
+  border: 2px solid blueviolet;
+  width: 220px;
+  margin: 0 auto;
+  padding: 0 5%;
+  margin-top: 20px;
+  border-radius: 20px
+}
+
+.btn:active {
+  background-color: rgb(118, 0, 228) !important;
+  color: white;
+}
+
+.center {
+  float: calc(50%);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
